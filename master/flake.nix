@@ -11,6 +11,7 @@
   inputs.src-nimhq-master.ref   = "refs/heads/master";
   inputs.src-nimhq-master.owner = "sillibird";
   inputs.src-nimhq-master.repo  = "nimhq";
+  inputs.src-nimhq-master.dir   = "";
   inputs.src-nimhq-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
